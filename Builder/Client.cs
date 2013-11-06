@@ -15,7 +15,7 @@ namespace Research.Builder
             Console.WriteLine("Please Enter Food No");
             string no = Console.ReadLine();
             string foodType = "1";
-            builder = builder = (Builder)Assembly.Load("Builder").CreateInstance(foodType);
+            builder = (Builder)Assembly.Load("Builder").CreateInstance(foodType);
             foodManager.Constrcut(builder);
         }
     }
